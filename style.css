@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #f6eec8;
+}
+
+.tier1{
+    background-color: #d2c4c4;
+    width: 710px;
+    height: 40px;
+    margin: 30px auto 10px auto;
+    text-align: center;
+    line-height: 40px;
+}
+
+.tier2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.admin, .ass-dir{
+    background-color: #cccccc;
+    width: 250px;
+    height: 40px;
+    margin: 10px auto;
+    text-align: center;
+    line-height: 40px;
+}
+
+.admin{
+    margin-right: -200px;
+}
+
+.d1, .d2, .d3, .d4, .d5{
+    width: 230px;
+    height: 40px;
+    margin: 10px auto;
+    text-align: center;
+    line-height: 40px;
+}
+
+.tier3{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.seca, .secb, .secc, .secd, .sece{
+    width: 210px;
+    height: 40px;
+    margin: 10px auto;
+    text-align: center;
+    line-height: 40px;
+}
+
+.seca, .d1{
+    background-color: #ffd504;
+}
+
+.secb, .d2{
+    background-color: #aad5e8;
+}
+
+.secc, .d3{
+    background-color: #feafff;
+}
+
+.secd, .d4{
+    background-color: #838383;
+}
+
+.sece, .d5{
+    background-color: #b09595;
+}
+
+.depa, .depb, .depc, .depd, .depe{
+    display: flex;
+    flex-direction: column;
+}
